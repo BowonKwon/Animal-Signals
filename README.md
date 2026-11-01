@@ -1,4 +1,4 @@
-# 동물의 말, 어디까지 알았나 / Animal Signals: What We Know, and How We Know It
+# 동물의 신호, 어디까지 알았나 / Animal Signals: What We Know, and How We Know It
 
 동물 신호 연구를 주장 하나씩 나누어, 원 논문을 읽고 근거 수준(등급)을 매긴 정적 사이트다. 한국어·영어.
 A static site that splits research on animal signals into single claims and grades the evidence for each from the original paper. Korean and English.
