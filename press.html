@@ -5,14 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>보도와 논문, 나란히 / Press and papers | 동물의 신호, 어디까지 알았나</title>
 <link rel="stylesheet" href="assets/site.css">
-<script>(function(){var l;try{l=localStorage.getItem("as-lang")}catch(e){}if(l!=="ko"&&l!=="en"){l=(navigator.language||"").toLowerCase().indexOf("ko")===0?"ko":"en"}var d=document.documentElement;d.className="lang-"+l;d.lang=l;})();</script>
+<script>(function(){var th;try{th=localStorage.getItem("as-theme")}catch(e){}if(th==="light"||th==="dark"){document.documentElement.setAttribute("data-theme",th)}var l;try{l=localStorage.getItem("as-lang")}catch(e){}if(l!=="ko"&&l!=="en"){l=(navigator.language||"").toLowerCase().indexOf("ko")===0?"ko":"en"}var d=document.documentElement;d.className="lang-"+l;d.lang=l;})();</script>
 
 </head>
 <body>
 <header class="top">
 <div class="wrap toprow">
 <a class="brand" href="index.html"><span class="ko" lang="ko">동물의 신호, 어디까지 알았나</span><span class="en" lang="en">Animal Signals: What We Know, and How We Know It</span></a>
-<button type="button" id="langbtn" class="langbtn" aria-label="Language / 언어"><span class="ko" lang="en">English</span><span class="en" lang="ko">한국어</span></button>
+<div class="btns"><button type="button" id="langbtn" class="langbtn" aria-label="Language / 언어"><span class="ko" lang="en">English</span><span class="en" lang="ko">한국어</span></button>
+<button type="button" id="themebtn" class="langbtn themebtn" aria-label="밝게/어둡게 / Light or dark" title="밝게/어둡게 · Light/dark">&#9681;</button></div>
 </div>
 <nav class="wrap nav" aria-label="Site"><a href="index.html"><span class="ko" lang="ko">처음</span><span class="en" lang="en">Home</span></a><a href="map.html"><span class="ko" lang="ko">지도</span><span class="en" lang="en">Map</span></a><a href="claims.html"><span class="ko" lang="ko">주장 카드</span><span class="en" lang="en">Claims</span></a><a href="press.html" aria-current="page"><span class="ko" lang="ko">보도와 논문, 나란히</span><span class="en" lang="en">Press and papers</span></a><a href="aic.html"><span class="ko" lang="ko">사람과 동물</span><span class="en" lang="en">Human and animal</span></a><a href="try.html"><span class="ko" lang="ko">직접 해 보기</span><span class="en" lang="en">Try it</span></a><a href="glossary.html"><span class="ko" lang="ko">용어</span><span class="en" lang="en">Glossary</span></a><a href="about.html"><span class="ko" lang="ko">소개</span><span class="en" lang="en">About</span></a></nav>
 </header>
@@ -253,7 +254,7 @@
 <footer class="foot">
 <div class="wrap">
 <p class="credit">엮은이 권보원 / Compiled and edited by Bowon Kwon</p>
-<p><span class="ko" lang="ko">화면과 데이터: CC BY 4.0. 원 논문·보도·녹음의 권리는 각 권리자에게 있다.</span><span class="en" lang="en">Pages and data: CC BY 4.0. Original papers, press items and recordings belong to their rights holders.</span>
+<p><span class="ko" lang="ko">글과 데이터 <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>, 코드 MIT. 원 논문·보도·녹음의 권리는 각 권리자에게 있다.</span><span class="en" lang="en">Text and data <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>, code MIT. Original papers, press items and recordings belong to their rights holders.</span>
 <span class="ko" lang="ko">갱신일</span><span class="en" lang="en">Updated</span> 2026-10-31</p>
 </div>
 </footer>
