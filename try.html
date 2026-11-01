@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko" class="lang-ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>직접 해 보기 / Try it | 동물의 말, 어디까지 알았나</title>
+<link rel="stylesheet" href="assets/site.css">
+<script>(function(){var l;try{l=localStorage.getItem("as-lang")}catch(e){}if(l!=="ko"&&l!=="en"){l=(navigator.language||"").toLowerCase().indexOf("ko")===0?"ko":"en"}var d=document.documentElement;d.className="lang-"+l;d.lang=l;})();</script>
+
+</head>
+<body>
+<header class="top">
+<div class="wrap toprow">
+<a class="brand" href="index.html"><span class="ko" lang="ko">동물의 말, 어디까지 알았나</span><span class="en" lang="en">Animal Signals: What We Know, and How We Know It</span></a>
+<button type="button" id="langbtn" class="langbtn" aria-label="Language / 언어"><span class="ko" lang="en">English</span><span class="en" lang="ko">한국어</span></button>
+</div>
+<nav class="wrap nav" aria-label="Site"><a href="index.html"><span class="ko" lang="ko">처음</span><span class="en" lang="en">Home</span></a><a href="map.html"><span class="ko" lang="ko">지도</span><span class="en" lang="en">Map</span></a><a href="claims.html"><span class="ko" lang="ko">주장 카드</span><span class="en" lang="en">Claims</span></a><a href="press.html"><span class="ko" lang="ko">보도와 논문, 나란히</span><span class="en" lang="en">Press and papers</span></a><a href="aic.html"><span class="ko" lang="ko">사람과 동물</span><span class="en" lang="en">Human and animal</span></a><a href="try.html" aria-current="page"><span class="ko" lang="ko">직접 해 보기</span><span class="en" lang="en">Try it</span></a><a href="glossary.html"><span class="ko" lang="ko">용어</span><span class="en" lang="en">Glossary</span></a><a href="about.html"><span class="ko" lang="ko">소개</span><span class="en" lang="en">About</span></a></nav>
+</header>
+<main class="wrap">
+<h1><span class="ko" lang="ko">직접 해 보기</span><span class="en" lang="en">Try it</span></h1>
+<p class="lead"><span class="ko" lang="ko">공개된 데이터와 브라우저 기능으로, 연구자가 하는 일 두 가지를 손으로 해 본다.</span><span class="en" lang="en">Two things researchers do, tried by hand with open data and the browser.</span></p>
+<section id="coda"><h2><span class="ko" lang="ko">① 향유고래 코다의 템포</span><span class="en" lang="en">1. Sperm whale coda tempo</span></h2>
+<script type="application/json" id="coda-data">{"source":"Sharma et al. 2024, Nature Communications 15:3617; Zenodo doi:10.5281/zenodo.10817697 (CC BY 4.0)","clan":"EC1","n_rows_total":8719,"n_ec1":7770,"n_tempo":7737,"tempo_range":[0.1,1.75],"paper_bw":0.035,"paper_peaks":[0.33,0.51,0.8,1.02,1.26],"binned_peaks_at_paper_bw":[0.33,0.51,0.8,1.02,1.27],"peaks_by_bw_exact":{"0.015":12,"0.020":9,"0.025":7,"0.030":5,"0.035":5,"0.040":5,"0.050":4,"0.080":3,"0.120":3},"hist":{"start":0.1,"width":0.005,"counts":[0,1,1,3,3,5,7,2,5,3,7,11,5,1,8,7,9,8,12,4,9,7,6,5,4,6,8,10,7,11,12,8,8,7,9,13,15,20,26,45,54,110,131,144,189,227,204,167,128,89,75,70,44,54,44,38,31,42,43,40,20,37,12,11,8,19,8,8,9,3,7,20,10,12,9,16,21,26,30,36,31,41,59,36,49,33,30,20,19,19,15,12,13,9,10,6,7,8,6,5,3,6,4,10,6,12,16,12,15,10,23,11,16,10,11,12,10,10,16,26,10,15,15,18,23,19,32,35,30,28,49,42,33,35,38,40,44,32,36,40,37,42,34,37,38,47,40,41,33,41,21,25,22,28,25,25,33,33,28,26,31,16,15,14,23,19,16,26,15,15,21,25,18,28,34,28,30,29,29,33,33,27,28,30,30,30,27,25,24,25,41,29,22,34,23,35,17,28,29,14,23,30,34,16,32,32,35,30,34,30,35,39,37,35,42,28,30,33,32,33,44,29,34,23,32,33,24,41,42,44,43,40,47,37,37,47,46,43,31,44,31,28,43,28,31,26,25,33,39,29,17,33,22,28,17,16,15,10,17,15,15,18,14,14,20,11,5,12,7,13,7,7,8,8,7,6,2,7,4,5,4,4,4,6,3,5,2,0,5,9,6,10,3,1,5,2,2,1,5,1,2,2,1,3,2,1,2,2,0,0,2,1,0,0,0,0,0,1,0,1,1,4,1,0,1,0,0,0,0,1],"total":7737},"types":[{"type":"1+1+3","n":3574,"n_clicks":5,"median_duration":1.09,"rhythm":[0.3372,0.3265,0.1742,0.1621]},{"type":"5R1","n":1510,"n_clicks":5,"median_duration":0.329,"rhythm":[0.2855,0.2788,0.2248,0.2109]},{"type":"4R2","n":303,"n_clicks":4,"median_duration":0.972,"rhythm":[0.3406,0.332,0.3274]},{"type":"5R2","n":287,"n_clicks":5,"median_duration":0.508,"rhythm":[0.24,0.2599,0.2403,0.2598]},{"type":"4D","n":219,"n_clicks":4,"median_duration":0.517,"rhythm":[0.4774,0.3066,0.2161]},{"type":"6i","n":182,"n_clicks":6,"median_duration":0.387,"rhythm":[0.2005,0.2011,0.1787,0.1853,0.2344]},{"type":"8i","n":178,"n_clicks":8,"median_duration":0.352,"rhythm":[0.1233,0.1386,0.1381,0.1355,0.1354,0.1447,0.1843]},{"type":"7D1","n":171,"n_clicks":7,"median_duration":1.208,"rhythm":[0.3245,0.1805,0.1524,0.1322,0.1053,0.1049]},{"type":"7i","n":145,"n_clicks":7,"median_duration":0.332,"rhythm":[0.1427,0.1548,0.1541,0.1588,0.1724,0.2172]},{"type":"9i","n":135,"n_clicks":9,"median_duration":0.384,"rhythm":[0.1055,0.119,0.1198,0.118,0.1134,0.1189,0.1294,0.1759]}]}</script>
+<div class="tryblock">
+<h3><span class="ko" lang="ko">(가) 같은 리듬, 다른 템포</span><span class="en" lang="en">(a) Same rhythm, different tempo</span></h3>
+<p><span class="ko" lang="ko">코다는 짧은 딸깍 소리 묶음이다. 아래는 원 데이터에서 코다 유형마다 클릭 간격의 평균 비율을 추려, 그 비율대로 합성한 클릭이다. 녹음이 아니다. 슬라이더는 비율을 그대로 두고 전체 길이만 바꾼다.</span><span class="en" lang="en">A coda is a short burst of clicks. Below, the average proportions of click intervals for each coda type were taken from the original data and played as synthetic clicks. These are not recordings. The slider keeps the proportions and changes only the total length.</span></p>
+<div class="controls">
+<label><span class="ko" lang="ko">코다 유형</span><span class="en" lang="en">Coda type</span> <select id="codatype"></select></label>
+<label><span class="ko" lang="ko">전체 길이</span><span class="en" lang="en">Total length</span> <input type="range" id="codalen" min="0.2" max="2.0" step="0.01"> <output id="codalenout"></output><span class="ko" lang="ko">초</span><span class="en" lang="en">s</span></label>
+<button type="button" id="codaplay"><span class="ko" lang="ko">들려주기</span><span class="en" lang="en">Play</span></button>
+<button type="button" id="codareset"><span class="ko" lang="ko">원 데이터 중앙값으로</span><span class="en" lang="en">Reset to data median</span></button>
+</div>
+<p class="small" id="codainfo"></p>
+<svg id="codasvg" class="codasvg" viewBox="0 0 600 60" role="img" aria-label="click timing"></svg>
+</div>
+<div class="tryblock">
+<h3><span class="ko" lang="ko">(나) 분석 선택이 결론을 바꾼다</span><span class="en" lang="en">(b) Analysis choices change the result</span></h3>
+<p><span class="ko" lang="ko">코다 길이(템포)의 분포를 매끄럽게 그릴 때, 얼마나 매끄럽게 할지(대역폭)를 고르면 봉우리 수가 달라진다. 봉우리 하나를 템포 유형 하나로 읽으면, 유형이 몇 개인지가 이 선택에 따라 바뀐다.</span><span class="en" lang="en">When the distribution of coda lengths (tempo) is smoothed, the choice of how much to smooth (bandwidth) changes the number of peaks. If each peak is read as one tempo type, the number of types depends on this choice.</span></p>
+<div class="controls">
+<label><span class="ko" lang="ko">대역폭</span><span class="en" lang="en">Bandwidth</span> <input type="range" id="bw" min="0.010" max="0.150" step="0.005"> <output id="bwout"></output><span class="ko" lang="ko">초</span><span class="en" lang="en">s</span></label>
+<button type="button" id="bwpaper"><span class="ko" lang="ko">논문이 고른 설정으로</span><span class="en" lang="en">Use the paper&#x27;s setting</span></button>
+</div>
+<p><b><span class="ko" lang="ko">봉우리</span><span class="en" lang="en">Peaks</span>: <span id="npeaks"></span></b> · <span class="small" id="peaklist"></span></p>
+<p class="small"><span class="ko" lang="ko">논문이 고른 설정: 봉우리 5개(원 저자 코드의 대역폭 0.035초). 그래프의 세로 점선이 그 다섯 위치다.</span><span class="en" lang="en">The paper&#x27;s setting: 5 peaks (bandwidth 0.035 s in the authors&#x27; code). The vertical dotted lines mark those five positions.</span></p>
+<canvas id="kde" class="kde" width="900" height="300" aria-label="tempo density"></canvas>
+<p class="small"><span class="ko" lang="ko">자료: 동카리브 EC1 씨족 코다 7737개(길이 0.1~1.75초, 원 저자 코드와 같은 범위). 막대는 0.005초 간격 도수, 곡선은 그 도수로 계산한 가우스 커널 밀도.</span><span class="en" lang="en">Data: 7737 codas from the Eastern Caribbean clan EC1 (length 0.1 to 1.75 s, the range used in the authors&#x27; code). Bars are counts in 0.005 s bins; the curve is a Gaussian kernel density computed from those counts.</span></p>
+</div>
+<p class="credit2"><span class="ko" lang="ko">Sharma et al. (2024), <i>Nature Communications</i> 15:3617. 데이터 Zenodo doi:10.5281/zenodo.10817697 (CC BY 4.0). 원 데이터에서 대표값을 추려 합성음으로 다시 만들었다.</span><span class="en" lang="en">Sharma et al. (2024), <i>Nature Communications</i> 15:3617. Data: Zenodo doi:10.5281/zenodo.10817697 (CC BY 4.0). Representative values were extracted from the original data and re-created as synthetic sound.</span> <a href="https://doi.org/10.1038/s41467-024-47221-8" rel="noopener">doi:10.1038/s41467-024-47221-8</a> · <a href="https://doi.org/10.5281/zenodo.10817697" rel="noopener">doi:10.5281/zenodo.10817697</a> · <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a></p>
+<p class="small"><a href="claims.html#channel=acoustic-water&amp;taxon=cetaceans"><span class="ko" lang="ko">고래 주장 카드 보기</span><span class="en" lang="en">See whale claim cards</span></a></p>
+</section>
+<section id="spectro"><h2><span class="ko" lang="ko">② 스펙트로그램</span><span class="en" lang="en">2. Spectrogram</span></h2>
+<p><span class="ko" lang="ko">스펙트로그램은 소리를 시간(가로)과 높이(세로)로 펼치고 세기를 밝기로 나타낸 그림이다. 연구자는 이 그림에서 신호의 단위를 어디서 자를지 정한다.</span><span class="en" lang="en">A spectrogram spreads sound over time (across) and pitch (up), with loudness as brightness. Researchers use it to decide where one signal unit ends and the next begins.</span></p>
+<div class="tryblock">
+<h3><span class="ko" lang="ko">내 마이크로 해 보기</span><span class="en" lang="en">Try with your microphone</span></h3>
+<p class="small"><span class="ko" lang="ko">소리는 이 브라우저 안에서만 처리되고 어디로도 보내지지 않는다. 저장하지도 않는다. 시작을 누르면 브라우저가 마이크 사용을 묻는다.</span><span class="en" lang="en">Sound is processed only inside this browser and is not sent anywhere or saved. Pressing Start makes the browser ask for microphone access.</span></p>
+<div class="controls"><button type="button" id="micstart"><span class="ko" lang="ko">시작</span><span class="en" lang="en">Start</span></button> <button type="button" id="micstop" disabled><span class="ko" lang="ko">멈춤</span><span class="en" lang="en">Stop</span></button>
+<span class="small" id="micmsg"></span></div>
+<canvas id="spec" class="spec" width="900" height="300" aria-label="spectrogram"></canvas>
+<p class="small"><span class="ko" lang="ko">세로축 0~12kHz. 휘파람, 손뼉, 말소리를 내 보면 모양이 서로 다르다.</span><span class="en" lang="en">Vertical axis 0 to 12 kHz. Try whistling, clapping and speaking: the shapes differ.</span></p>
+</div>
+<div class="tryblock">
+<h3><span class="ko" lang="ko">공개 녹음으로 해 보기 (xeno-canto)</span><span class="en" lang="en">Try with an open recording (xeno-canto)</span></h3>
+<p class="pending"><span class="ko" lang="ko">준비 중</span><span class="en" lang="en">In preparation</span></p>
+</div>
+<p class="small"><span class="ko" lang="ko">그 밖의 녹음 아카이브는 링크로만 안내한다</span><span class="en" lang="en">Other recording archives are linked only</span>:
+<a href="https://www.macaulaylibrary.org/" rel="noopener">Macaulay Library</a> ·
+<a href="https://xeno-canto.org/" rel="noopener">xeno-canto</a> ·
+<a href="https://cis.whoi.edu/science/B/whalesounds/" rel="noopener">Watkins Marine Mammal Sound Database</a> ·
+<a href="https://www.fisheries.noaa.gov/" rel="noopener">NOAA Fisheries</a></p>
+</section>
+</main>
+<footer class="foot">
+<div class="wrap">
+<p class="credit">엮은이 권보원 / Compiled and edited by Bowon Kwon</p>
+<p><span class="ko" lang="ko">화면과 데이터: CC BY 4.0. 원 논문·보도·녹음의 권리는 각 권리자에게 있다.</span><span class="en" lang="en">Pages and data: CC BY 4.0. Original papers, press items and recordings belong to their rights holders.</span>
+<span class="ko" lang="ko">갱신일</span><span class="en" lang="en">Updated</span> 2026-10-31</p>
+</div>
+</footer>
+<script src="assets/site.js"></script><script src="assets/try.js"></script>
+</body>
+</html>
