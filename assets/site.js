@@ -1,7 +1,7 @@
 (function(){
 var d=document.documentElement;
 function lang(){return d.className.indexOf("lang-en")>=0?"en":"ko"}
-function setLang(l){d.className="lang-"+l;d.lang=l;try{localStorage.setItem("as-lang",l)}catch(e){}
+function setLang(l){d.className="lang-"+l;d.lang=l;var tt=d.getAttribute("data-title-"+l);if(tt){document.title=tt}try{localStorage.setItem("as-lang",l)}catch(e){}
 var ph=document.querySelectorAll("[data-ph-ko]");for(var i=0;i<ph.length;i++){ph[i].placeholder=ph[i].getAttribute("data-ph-"+l)}}
 var b=document.getElementById("langbtn");if(b){b.addEventListener("click",function(){setLang(lang()==="ko"?"en":"ko")})}
 var tb=document.getElementById("themebtn");if(tb){tb.addEventListener("click",function(){var cur=d.getAttribute("data-theme");var sys=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";var now=cur||sys;var next=now==="dark"?"light":"dark";d.setAttribute("data-theme",next);try{localStorage.setItem("as-theme",next)}catch(e){}})}

@@ -6,7 +6,7 @@ This repository holds three kinds of material, each under its own terms. To the 
 2. **Code** — `assets/site.js`, `assets/try.js`, `assets/site.css`: MIT License. Full text below.
 3. **Derived coda data** — `assets/coda.json`: summary values computed from the Zenodo release of Sharma et al. (2024), *Nature Communications* 15:3617, doi:10.5281/zenodo.10817697, which is CC BY 4.0. The derived file is CC BY 4.0 and carries that attribution forward.
 
-Original papers, press articles, recordings and figures are not included and remain the property of their rights holders. Bibliographic facts and reported numbers are facts, not subject to copyright; the licence covers the selection, wording and grading.
+Original papers, press articles, recordings and figures are not included and remain the property of their rights holders. Bibliographic facts and reported numbers are facts, not subject to copyright; the license covers the selection, wording and grading.
 
 이 저장소의 자료는 세 갈래로 나뉘고 각각 조건이 다르다. 엮은이(권보원)가 권리를 가지는 범위에서: 글과 주장 데이터(`*.html`, `README.md`, `data/*.csv`)는 CC BY 4.0, 코드(`assets/site.js`, `assets/try.js`, `assets/site.css`)는 MIT, 코다 파생 데이터(`assets/coda.json`)는 원 자료 Sharma et al. (2024) Zenodo 공개본(CC BY 4.0)의 조건을 이어받아 CC BY 4.0 이다. 원 논문·보도·녹음·그림은 포함하지 않았고 각 권리자에게 속한다.
 

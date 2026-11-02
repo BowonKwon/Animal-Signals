@@ -12,7 +12,7 @@ function draw(){var ts=times(),T=2.0,w=600,s="";s+='<line x1="10" y1="45" x2="59
 for(var x=0;x<=2.0001;x+=0.5){var px=10+580*x/T;s+='<line x1="'+px+'" y1="42" x2="'+px+'" y2="48" stroke="#999"/><text x="'+px+'" y="58" font-size="9" text-anchor="middle" fill="#666">'+x.toFixed(1)+'s</text>'}
 ts.forEach(function(t){var px=10+580*t/T;s+='<line x1="'+px+'" y1="8" x2="'+px+'" y2="42" stroke="#1d4f73" stroke-width="3"/>'});svg.innerHTML=s;
 lo.textContent=(+len.value).toFixed(2);var t=cur();
-info.textContent=(L()==="ko"?("원 데이터 중앙값 길이 "+t.median_duration+"초, 코다 "+t.n+"개. 클릭 간격 비율 "):("Data median length "+t.median_duration+" s, "+t.n+" codas. Interval proportions "))+t.rhythm.map(function(r){return r.toFixed(3)}).join(" : ")}
+info.textContent=(L()==="ko"?("원 데이터 중앙값 길이 "+t.median_duration+"초, 코다 "+t.n+"개. 클릭 간격 비율 "):("Median length in the data "+t.median_duration+" s; "+t.n+" codas. Click-interval proportions "))+t.rhythm.map(function(r){return r.toFixed(3)}).join(" : ")}
 function reset(){len.value=cur().median_duration;draw()}
 sel.addEventListener("change",reset);len.addEventListener("input",draw);document.getElementById("codareset").addEventListener("click",reset);
 document.getElementById("langbtn").addEventListener("click",function(){setTimeout(draw,0)});
