@@ -40,7 +40,8 @@ h2+.small,h1+.lead{margin-top:.2rem}
 .nav a{text-decoration:none;color:var(--muted);font-size:.92rem;padding:.22rem .7rem;border-radius:999px;transition:background .15s,color .15s}
 .nav a:hover{background:var(--bg2);color:var(--ink)}
 .nav a[aria-current=page]{color:var(--accent);background:var(--accent-tint);font-weight:600}
-main.wrap{padding-bottom:2rem;min-width:0;overflow-x:clip}
+main.wrap{padding-bottom:2rem;min-width:0;overflow-x:hidden;overflow-x:clip}
+.srcp{margin:1em 0}
 .lead{font-size:1.12rem;color:var(--ink);max-width:48rem}
 .small{font-size:.88rem;color:var(--muted)}
 .hero{padding:1.4rem 0 .4rem}
