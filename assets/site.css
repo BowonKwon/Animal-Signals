@@ -36,6 +36,7 @@ h2+.small,h1+.lead{margin-top:.2rem}
 .langbtn:hover{border-color:var(--accent);color:var(--accent)}
 .btns{display:flex;gap:.4rem;align-items:center}
 .themebtn{width:2.1rem;padding:.3rem 0;text-align:center}
+.btns .hub{font-size:.85rem;color:var(--muted);white-space:nowrap;text-decoration:none;margin-right:.3rem}.btns .hub:hover{text-decoration:underline}
 .nav{display:flex;flex-wrap:wrap;gap:.15rem .2rem;padding:.35rem 0 .6rem}
 .nav a{text-decoration:none;color:var(--muted);font-size:.92rem;padding:.22rem .7rem;border-radius:999px;transition:background .15s,color .15s}
 .nav a:hover{background:var(--bg2);color:var(--ink)}
