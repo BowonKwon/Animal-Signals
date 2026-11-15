@@ -5,7 +5,7 @@ var node=document.getElementById("coda-data");
 if(node){var D=JSON.parse(node.textContent);
 var sel=document.getElementById("codatype"),len=document.getElementById("codalen"),lo=document.getElementById("codalenout"),
 info=document.getElementById("codainfo"),svg=document.getElementById("codasvg");
-D.types.forEach(function(t,i){var o=document.createElement("option");o.value=i;o.textContent=t.type+" ("+t.n_clicks+" clicks, n="+t.n+")";sel.appendChild(o)});
+D.types.forEach(function(t,i){var o=document.createElement("option");o.value=i;o.setAttribute("data-ko",t.type+" (클릭 "+t.n_clicks+"개, n="+t.n+")");o.setAttribute("data-en",t.type+" ("+t.n_clicks+" clicks, n="+t.n+")");o.textContent=o.getAttribute(document.documentElement.className.indexOf("lang-en")>=0?"data-en":"data-ko");sel.appendChild(o)});
 function cur(){return D.types[+sel.value]}
 function times(){var t=cur(),T=+len.value,acc=0,out=[0];t.rhythm.forEach(function(r){acc+=r*T;out.push(acc)});return out}
 function draw(){var ts=times(),T=2.0,w=600,s="";s+='<line x1="10" y1="45" x2="590" y2="45" stroke="#bbb"/>';
