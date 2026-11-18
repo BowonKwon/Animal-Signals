@@ -37,3 +37,11 @@ return true});
 if(!document.getElementById("cfilter")&&!document.getElementById("pfilter")){var h2=location.hash.replace(/^#/,"");
 if(h2){var e2=document.getElementById(h2);if(e2){var dt=e2.querySelector("details");if(dt)dt.open=true}}}
 })();
+(function(){var d=document,r=d.documentElement,h=d.querySelector("header.top"),c=d.querySelector("nav.toc"),p=d.querySelector(".totoc");
+r.setAttribute("data-nav","1");
+function gap(){r.style.setProperty("--hh",h?(h.offsetHeight+12)+"px":".9rem")}
+function pill(){if(c&&p){p.classList.toggle("show",c.getBoundingClientRect().bottom<(h?h.offsetHeight:0))}}
+gap();addEventListener("resize",function(){gap();pill()});addEventListener("load",gap);if(d.fonts&&d.fonts.ready){d.fonts.ready.then(gap)}
+var b=d.getElementById("langbtn");if(b){b.addEventListener("click",function(){setTimeout(function(){gap();pill()},0)})}
+if(c&&p){addEventListener("scroll",pill,{passive:true});pill()}
+})();

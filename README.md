@@ -11,7 +11,8 @@ A grade marks where the reported study design behind each claim stands. It is no
 - 글꼴 / Fonts: `assets/fonts` — Noto Sans KR · Noto Serif KR 부분집합, SIL OFL 1.1 (`assets/fonts/OFL.txt`) / subsets of Noto Sans KR and Noto Serif KR, SIL OFL 1.1.
 - 라이선스 / License: 글과 데이터 CC BY 4.0, 코드(`assets/*.js`, `assets/site.css`) MIT. 자세한 구분은 `LICENSE.md`. 원 논문·보도·녹음의 권리는 각 권리자에게 있다. / Text and data CC BY 4.0; code (`assets/*.js`, `assets/site.css`) MIT; see `LICENSE.md`. Papers, press items and recordings belong to their rights holders.
 - 코다 데이터 / Coda data: Sharma et al. (2024), Nature Communications 15:3617; Zenodo doi:10.5281/zenodo.10817697 (CC BY 4.0) 에서 대표값만 추림 / representative values only.
-- 갱신일 / Updated: 2026-10-31
+- 판 / Version: 1.0.1 (2026-11-18)
+- 자료 기준일 / Data as of: 2026-10-31
 
 엮은이 권보원 / Compiled and edited by Bowon Kwon
 
